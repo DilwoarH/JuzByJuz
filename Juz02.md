@@ -1,3 +1,5 @@
+# Juz 2 Summary
+
 ## The Qiblah Change – A New Direction  
 - Muslims originally prayed toward Jerusalem.  
 - Allah commanded them to turn toward the Ka‘bah in Makkah.  
