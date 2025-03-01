@@ -1,3 +1,5 @@
+# Juz 1 Summary
+
 ## The Qur’an’s Purpose  
 - The Qur’an is a book of guidance from Allah.  
 - It teaches people how to live a good life.  
