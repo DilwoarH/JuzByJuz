@@ -77,15 +77,49 @@
       }
       .reveal h1 {
         font-size: 2.5em;
+        text-align: left !important;
       }
       .reveal h2 {
         font-size: 1.8em;
+        text-align: left !important;
       }
       .reveal ul {
         font-size: 1.2em;
       }
       .reveal .slides {
         height: 100%;
+      }
+      /* Make all slide content left-aligned */
+      .reveal .slides section {
+        text-align: left !important;
+      }
+      .reveal .slides section > * {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+      }
+      /* Adjust slide content positioning */
+      .reveal .slides section {
+        top: 0 !important;
+        padding: 40px !important;
+      }
+      /* Override any centered text from the theme */
+      .reveal {
+        text-align: left !important;
+      }
+      .reveal p {
+        text-align: left !important;
+      }
+      /* Ensure lists are properly aligned */
+      .reveal ul,
+      .reveal ol {
+        display: block !important;
+        margin-left: 0 !important;
+        padding-left: 1.5em !important;
+      }
+      /* Key insights styling */
+      .reveal p:last-child {
+        margin-top: 1.5em !important;
+        font-style: italic;
       }
     </style>
   </head>
