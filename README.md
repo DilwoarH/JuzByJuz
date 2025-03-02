@@ -4,35 +4,52 @@ A summary of each Juz in a consumable format.
 
 Inspired by the works of Sakib Ahmed.
 
-View Summaries:
+## View Options
 
-- [Juz 1](/Juz01.md)
-- [Juz 2](/Juz02.md)
-- [Juz 3](/Juz03.md)
-- [Juz 4](/Juz04.md)
-- [Juz 5](/Juz05.md)
-- [Juz 6](/Juz06.md)
-- [Juz 7](/Juz07.md)
-- [Juz 8](/Juz08.md)
-- [Juz 9](/Juz09.md)
-- [Juz 10](/Juz10.md)
-- [Juz 11](/Juz11.md)
-- [Juz 12](/Juz12.md)
-- [Juz 13](/Juz13.md)
-- [Juz 14](/Juz14.md)
-- [Juz 15](/Juz15.md)
-- [Juz 16](/Juz16.md)
-- [Juz 17](/Juz17.md)
-- [Juz 18](/Juz18.md)
-- [Juz 19](/Juz19.md)
-- [Juz 20](/Juz20.md)
-- [Juz 21](/Juz21.md)
-- [Juz 22](/Juz22.md)
-- [Juz 23](/Juz23.md)
-- [Juz 24](/Juz24.md)
-- [Juz 25](/Juz25.md)
-- [Juz 26](/Juz26.md)
-- [Juz 27](/Juz27.md)
-- [Juz 28](/Juz28.md)
-- [Juz 29](/Juz29.md)
-- [Juz 30](/Juz30.md)
+### Presentation Mode
+
+Open `index.html` in your browser to view all Juz summaries as beautiful presentations. You can also serve the directory using any static file server, for example:
+
+```bash
+# Using Python (Python 3)
+python -m http.server
+
+# Using PHP
+php -S localhost:8000
+
+# Using Node.js (with http-server package)
+npx http-server
+```
+
+### Direct Markdown Links
+
+- [Juz 1](/data/Juz01.md)
+- [Juz 2](/data/Juz02.md)
+- [Juz 3](/data/Juz03.md)
+- [Juz 4](/data/Juz04.md)
+- [Juz 5](/data/Juz05.md)
+- [Juz 6](/data/Juz06.md)
+- [Juz 7](/data/Juz07.md)
+- [Juz 8](/data/Juz08.md)
+- [Juz 9](/data/Juz09.md)
+- [Juz 10](/data/Juz10.md)
+- [Juz 11](/data/Juz11.md)
+- [Juz 12](/data/Juz12.md)
+- [Juz 13](/data/Juz13.md)
+- [Juz 14](/data/Juz14.md)
+- [Juz 15](/data/Juz15.md)
+- [Juz 16](/data/Juz16.md)
+- [Juz 17](/data/Juz17.md)
+- [Juz 18](/data/Juz18.md)
+- [Juz 19](/data/Juz19.md)
+- [Juz 20](/data/Juz20.md)
+- [Juz 21](/data/Juz21.md)
+- [Juz 22](/data/Juz22.md)
+- [Juz 23](/data/Juz23.md)
+- [Juz 24](/data/Juz24.md)
+- [Juz 25](/data/Juz25.md)
+- [Juz 26](/data/Juz26.md)
+- [Juz 27](/data/Juz27.md)
+- [Juz 28](/data/Juz28.md)
+- [Juz 29](/data/Juz29.md)
+- [Juz 30](/data/Juz30.md)
