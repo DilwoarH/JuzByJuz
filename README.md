@@ -6,9 +6,17 @@ Inspired by the works of Sakib Ahmed.
 
 ## View Options
 
-### Presentation Mode
+### TikTok-Style Reader
 
-Open `index.html` in your browser to view all Juz summaries as beautiful presentations. You can also serve the directory using any static file server, for example:
+Open `index.html` in your browser to view Juz summaries in a vertical scrolling, TikTok-style format. Features:
+
+- Smooth vertical scrolling
+- Navigation dots for quick access
+- Beautiful dark mode interface
+- Responsive design
+- Lazy loading of content
+
+You can serve the directory using any static file server, for example:
 
 ```bash
 # Using Python (Python 3)

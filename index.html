@@ -3,225 +3,300 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Juz By Juz Presentations</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.min.css"
-    />
+    <title>Juz Reader - TikTok Style</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Oxygen, Ubuntu, Cantarell, sans-serif;
-        margin: 0;
+        background: #000;
+        color: #fff;
+        overscroll-behavior: none;
+      }
+
+      #app {
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        position: relative;
+      }
+
+      .juz-container {
+        height: 100vh;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        position: relative;
+        overflow: hidden;
+        background: #1a1a1a;
+      }
+
+      .juz-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 600px;
         padding: 20px;
-        background: #f5f5f5;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+        max-height: 85vh;
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
       }
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-      h1 {
-        color: #333;
-        text-align: center;
-        margin-bottom: 40px;
-      }
-      .presentation-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 20px;
-        padding: 20px;
-      }
-      .juz-card {
-        background: white;
-        border-radius: 10px;
-        padding: 20px;
-        text-align: center;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s;
-        cursor: pointer;
-        text-decoration: none;
-        color: #333;
-      }
-      .juz-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      }
-      #presentation-container {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: white;
-        z-index: 1000;
-      }
-      .close-btn {
-        position: fixed;
+
+      .juz-number {
+        position: absolute;
         top: 20px;
         right: 20px;
-        z-index: 1001;
-        padding: 10px 20px;
-        background: #333;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-      .reveal {
-        height: 100vh;
-      }
-      .reveal h1 {
-        font-size: 2.5em;
-        text-align: left !important;
-      }
-      .reveal h2 {
-        font-size: 1.8em;
-        text-align: left !important;
-      }
-      .reveal ul {
         font-size: 1.2em;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 5px 15px;
+        border-radius: 20px;
       }
-      .reveal .slides {
-        height: 100%;
+
+      h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #fff;
       }
-      /* Make all slide content left-aligned */
-      .reveal .slides section {
-        text-align: left !important;
+
+      h2 {
+        font-size: 1.5em;
+        margin: 15px 0;
+        color: #fff;
       }
-      .reveal .slides section > * {
-        margin-left: 0 !important;
-        margin-right: auto !important;
+
+      ul {
+        list-style-position: inside;
+        margin: 10px 0;
       }
-      /* Adjust slide content positioning */
-      .reveal .slides section {
-        top: 0 !important;
-        padding: 40px !important;
+
+      li {
+        margin: 8px 0;
+        line-height: 1.4;
       }
-      /* Override any centered text from the theme */
-      .reveal {
-        text-align: left !important;
-      }
-      .reveal p {
-        text-align: left !important;
-      }
-      /* Ensure lists are properly aligned */
-      .reveal ul,
-      .reveal ol {
-        display: block !important;
-        margin-left: 0 !important;
-        padding-left: 1.5em !important;
-      }
-      /* Key insights styling */
-      .reveal p:last-child {
-        margin-top: 1.5em !important;
+
+      .key-insight {
+        margin-top: 20px;
         font-style: italic;
+        color: #4caf50;
+        border-left: 3px solid #4caf50;
+        padding-left: 10px;
+        background: rgba(76, 175, 80, 0.1);
+        padding: 10px;
+        border-radius: 0 5px 5px 0;
+      }
+
+      .navigation {
+        position: fixed;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .nav-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.3);
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .nav-dot.active {
+        background: #fff;
+        transform: scale(1.3);
+      }
+
+      .loading {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 1.2em;
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .juz-content {
+          width: 95%;
+          padding: 15px;
+        }
+
+        h1 {
+          font-size: 1.5em;
+        }
+        h2 {
+          font-size: 1.2em;
+        }
+      }
+
+      .section {
+        margin-bottom: 20px;
+      }
+
+      .section:last-child {
+        margin-bottom: 0;
+      }
+
+      .section-divider {
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 20px 0;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Juz By Juz Presentations</h1>
-      <div id="juz-grid" class="presentation-grid"></div>
-    </div>
+    <div id="app"></div>
+    <div class="navigation"></div>
+    <div class="loading">Loading...</div>
 
-    <div id="presentation-container">
-      <button class="close-btn" onclick="closePresentation()">Close</button>
-      <div class="reveal">
-        <div class="slides"></div>
-      </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.min.js"></script>
     <script>
-      let deck;
-      const totalJuz = 30;
+      const app = document.getElementById("app");
+      const navigation = document.querySelector(".navigation");
+      const loading = document.querySelector(".loading");
+      let currentJuz = 1;
+      let isLoading = false;
+      let loadedJuz = new Set();
 
-      function createJuzGrid() {
-        const grid = document.getElementById("juz-grid");
+      async function loadJuz(number) {
+        if (loadedJuz.has(number)) return;
 
-        for (let i = 1; i <= totalJuz; i++) {
-          const card = document.createElement("a");
-          card.className = "juz-card";
-          card.innerHTML = `<h2>Juz ${i}</h2>`;
-          card.onclick = (e) => {
-            e.preventDefault();
-            loadPresentation(i);
-          };
-          grid.appendChild(card);
-        }
-      }
-
-      async function loadPresentation(juzNumber) {
         try {
-          const paddedNumber = juzNumber.toString().padStart(2, "0");
+          const paddedNumber = number.toString().padStart(2, "0");
           const response = await fetch(`data/Juz${paddedNumber}.md`);
           if (!response.ok) throw new Error("Failed to load Juz content");
 
           const content = await response.text();
-          const slides = document.querySelector(".reveal .slides");
-          const slideContent = convertToSlides(content);
-          slides.innerHTML = slideContent;
+          const sections = content
+            .split("---")
+            .map((section) => section.trim())
+            .filter((section) => section); // Remove empty sections
 
-          document.getElementById("presentation-container").style.display =
-            "block";
+          const container = document.createElement("div");
+          container.className = "juz-container";
+          container.id = `juz-${number}`;
 
-          if (deck) {
-            deck.destroy();
-          }
+          const contentDiv = document.createElement("div");
+          contentDiv.className = "juz-content";
 
-          deck = new Reveal({
-            plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
-            hash: true,
-            slideNumber: true,
-            width: "100%",
-            height: "100%",
-            margin: 0.1,
-            minScale: 0.2,
-            maxScale: 2.0,
-          });
+          // Combine all sections with proper spacing and styling
+          const combinedContent = sections
+            .map((section) => {
+              const sectionHtml = convertMarkdownToHtml(section);
+              return `<div class="section">${sectionHtml}</div>`;
+            })
+            .join('<hr class="section-divider">');
 
-          deck.initialize().then(() => {
-            // Force a layout update
-            window.dispatchEvent(new Event("resize"));
-          });
+          contentDiv.innerHTML = combinedContent;
+
+          const juzNumber = document.createElement("div");
+          juzNumber.className = "juz-number";
+          juzNumber.textContent = `Juz ${number}`;
+
+          container.appendChild(contentDiv);
+          container.appendChild(juzNumber);
+          app.appendChild(container);
+
+          loadedJuz.add(number);
         } catch (error) {
-          console.error("Error loading presentation:", error);
-          alert("Failed to load Juz content. Please try again.");
+          console.error("Error loading Juz:", error);
         }
       }
 
-      function convertToSlides(markdown) {
-        // Split by horizontal rule and trim each section
-        const sections = markdown.split("---").map((section) => section.trim());
+      function convertMarkdownToHtml(markdown) {
+        // Basic markdown conversion
+        let html = markdown
+          // Headers
+          .replace(/^# (.*$)/gm, "<h1>$1</h1>")
+          .replace(/^## (.*$)/gm, "<h2>$1</h2>")
+          // Lists
+          .replace(/^- (.*$)/gm, "<li>$1</li>")
+          // Key insight
+          .replace(/Key insight: (.*$)/gm, '<div class="key-insight">$1</div>');
 
-        return sections
-          .map((section) => {
-            if (!section) return ""; // Skip empty sections
-            // Wrap each section in a section tag with data-markdown
-            return `<section data-markdown><script type="text/template">${section}<\/script></section>`;
-          })
-          .filter((section) => section) // Remove empty sections
-          .join("");
+        // Wrap lists in ul tags
+        if (html.includes("<li>")) {
+          html = "<ul>" + html + "</ul>";
+          html = html.replace(/<\/ul>\s*<ul>/g, "");
+        }
+
+        return html;
       }
 
-      function closePresentation() {
-        document.getElementById("presentation-container").style.display =
-          "none";
-        if (deck) {
-          deck.destroy();
+      function createNavigation() {
+        for (let i = 1; i <= 30; i++) {
+          const dot = document.createElement("div");
+          dot.className = "nav-dot";
+          dot.setAttribute("data-juz", i);
+          dot.onclick = () => scrollToJuz(i);
+          navigation.appendChild(dot);
         }
       }
 
-      // Initialize the grid
-      createJuzGrid();
+      function scrollToJuz(number) {
+        const element = document.getElementById(`juz-${number}`);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+
+      function updateNavigation() {
+        const dots = document.querySelectorAll(".nav-dot");
+        dots.forEach((dot) => dot.classList.remove("active"));
+
+        const juzNumber = Math.round(app.scrollTop / window.innerHeight) + 1;
+        const activeDot = document.querySelector(`[data-juz="${juzNumber}"]`);
+        if (activeDot) activeDot.classList.add("active");
+      }
+
+      async function initialize() {
+        createNavigation();
+
+        // Load first few Juz
+        loading.style.display = "block";
+        for (let i = 1; i <= 3; i++) {
+          await loadJuz(i);
+        }
+        loading.style.display = "none";
+
+        // Update navigation on scroll
+        app.addEventListener("scroll", () => {
+          updateNavigation();
+
+          // Load more content when reaching bottom
+          const scrollPosition = app.scrollTop + app.clientHeight;
+          const totalHeight = app.scrollHeight;
+
+          if (scrollPosition > totalHeight - 1000 && !isLoading) {
+            const nextJuz = Math.min(loadedJuz.size + 1, 30);
+            if (nextJuz <= 30) {
+              isLoading = true;
+              loadJuz(nextJuz).then(() => {
+                isLoading = false;
+              });
+            }
+          }
+        });
+
+        // Initial navigation update
+        updateNavigation();
+      }
+
+      initialize();
     </script>
   </body>
 </html>

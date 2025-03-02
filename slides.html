@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juz By Juz Presentations</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.min.css"
+    />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #f5f5f5;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .presentation-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      .juz-card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+        cursor: pointer;
+        text-decoration: none;
+        color: #333;
+      }
+      .juz-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+      #presentation-container {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 1000;
+      }
+      .close-btn {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1001;
+        padding: 10px 20px;
+        background: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .reveal {
+        height: 100vh;
+      }
+      .reveal h1 {
+        font-size: 2.5em;
+        text-align: left !important;
+      }
+      .reveal h2 {
+        font-size: 1.8em;
+        text-align: left !important;
+      }
+      .reveal ul {
+        font-size: 1.2em;
+      }
+      .reveal .slides {
+        height: 100%;
+      }
+      /* Make all slide content left-aligned */
+      .reveal .slides section {
+        text-align: left !important;
+      }
+      .reveal .slides section > * {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+      }
+      /* Adjust slide content positioning */
+      .reveal .slides section {
+        top: 0 !important;
+        padding: 40px !important;
+      }
+      /* Override any centered text from the theme */
+      .reveal {
+        text-align: left !important;
+      }
+      .reveal p {
+        text-align: left !important;
+      }
+      /* Ensure lists are properly aligned */
+      .reveal ul,
+      .reveal ol {
+        display: block !important;
+        margin-left: 0 !important;
+        padding-left: 1.5em !important;
+      }
+      /* Key insights styling */
+      .reveal p:last-child {
+        margin-top: 1.5em !important;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Juz By Juz Presentations</h1>
+      <div id="juz-grid" class="presentation-grid"></div>
+    </div>
+
+    <div id="presentation-container">
+      <button class="close-btn" onclick="closePresentation()">Close</button>
+      <div class="reveal">
+        <div class="slides"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.min.js"></script>
+    <script>
+      let deck;
+      const totalJuz = 30;
+
+      function createJuzGrid() {
+        const grid = document.getElementById("juz-grid");
+
+        for (let i = 1; i <= totalJuz; i++) {
+          const card = document.createElement("a");
+          card.className = "juz-card";
+          card.innerHTML = `<h2>Juz ${i}</h2>`;
+          card.onclick = (e) => {
+            e.preventDefault();
+            loadPresentation(i);
+          };
+          grid.appendChild(card);
+        }
+      }
+
+      async function loadPresentation(juzNumber) {
+        try {
+          const paddedNumber = juzNumber.toString().padStart(2, "0");
+          const response = await fetch(`data/Juz${paddedNumber}.md`);
+          if (!response.ok) throw new Error("Failed to load Juz content");
+
+          const content = await response.text();
+          const slides = document.querySelector(".reveal .slides");
+          const slideContent = convertToSlides(content);
+          slides.innerHTML = slideContent;
+
+          document.getElementById("presentation-container").style.display =
+            "block";
+
+          if (deck) {
+            deck.destroy();
+          }
+
+          deck = new Reveal({
+            plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
+            hash: true,
+            slideNumber: true,
+            width: "100%",
+            height: "100%",
+            margin: 0.1,
+            minScale: 0.2,
+            maxScale: 2.0,
+          });
+
+          deck.initialize().then(() => {
+            // Force a layout update
+            window.dispatchEvent(new Event("resize"));
+          });
+        } catch (error) {
+          console.error("Error loading presentation:", error);
+          alert("Failed to load Juz content. Please try again.");
+        }
+      }
+
+      function convertToSlides(markdown) {
+        // Split by horizontal rule and trim each section
+        const sections = markdown.split("---").map((section) => section.trim());
+
+        return sections
+          .map((section) => {
+            if (!section) return ""; // Skip empty sections
+            // Wrap each section in a section tag with data-markdown
+            return `<section data-markdown><script type="text/template">${section}<\/script></section>`;
+          })
+          .filter((section) => section) // Remove empty sections
+          .join("");
+      }
+
+      function closePresentation() {
+        document.getElementById("presentation-container").style.display =
+          "none";
+        if (deck) {
+          deck.destroy();
+        }
+      }
+
+      // Initialize the grid
+      createJuzGrid();
+    </script>
+  </body>
+</html>
