@@ -157,6 +157,52 @@
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         margin: 20px 0;
       }
+
+      .title-page {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.7);
+      }
+
+      .title-page h1 {
+        font-size: 3.5em;
+        margin-bottom: 30px;
+        background: linear-gradient(45deg, #4caf50, #2196f3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .title-description {
+        font-size: 1.2em;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 20px;
+      }
+
+      .swipe-indicator {
+        font-size: 2em;
+        margin-top: 20px;
+        animation: bounce 1.5s infinite;
+      }
+
+      @keyframes bounce {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-20px);
+        }
+        60% {
+          transform: translateY(-10px);
+        }
+      }
     </style>
   </head>
   <body>
@@ -186,30 +232,49 @@
             .map((section) => section.trim())
             .filter((section) => section); // Remove empty sections
 
-          const container = document.createElement("div");
-          container.className = "juz-container";
-          container.id = `juz-${number}`;
+          // Create title page
+          const titleContainer = document.createElement("div");
+          titleContainer.className = "juz-container";
+          titleContainer.id = `juz-${number}-title`;
 
-          const contentDiv = document.createElement("div");
-          contentDiv.className = "juz-content";
+          const titleContent = document.createElement("div");
+          titleContent.className = "juz-content title-page";
+          titleContent.innerHTML = `
+            <h1>Juz ${number}</h1>
+            <div class="title-description">
+              <p>Swipe up to read the summary</p>
+              <div class="swipe-indicator">↓</div>
+            </div>
+          `;
 
-          // Combine all sections with proper spacing and styling
-          const combinedContent = sections
-            .map((section) => {
-              const sectionHtml = convertMarkdownToHtml(section);
-              return `<div class="section">${sectionHtml}</div>`;
-            })
-            .join('<hr class="section-divider">');
+          const juzNumberTitle = document.createElement("div");
+          juzNumberTitle.className = "juz-number";
+          juzNumberTitle.textContent = `Juz ${number}`;
 
-          contentDiv.innerHTML = combinedContent;
+          titleContainer.appendChild(titleContent);
+          titleContainer.appendChild(juzNumberTitle);
+          app.appendChild(titleContainer);
 
-          const juzNumber = document.createElement("div");
-          juzNumber.className = "juz-number";
-          juzNumber.textContent = `Juz ${number}`;
+          // Create section pages
+          sections.forEach((section, index) => {
+            const container = document.createElement("div");
+            container.className = "juz-container";
+            container.id = `juz-${number}-section-${index + 1}`;
 
-          container.appendChild(contentDiv);
-          container.appendChild(juzNumber);
-          app.appendChild(container);
+            const contentDiv = document.createElement("div");
+            contentDiv.className = "juz-content";
+            contentDiv.innerHTML = convertMarkdownToHtml(section);
+
+            const juzNumber = document.createElement("div");
+            juzNumber.className = "juz-number";
+            juzNumber.textContent = `Juz ${number} • ${index + 1}/${
+              sections.length
+            }`;
+
+            container.appendChild(contentDiv);
+            container.appendChild(juzNumber);
+            app.appendChild(container);
+          });
 
           loadedJuz.add(number);
         } catch (error) {
@@ -248,7 +313,7 @@
       }
 
       function scrollToJuz(number) {
-        const element = document.getElementById(`juz-${number}`);
+        const element = document.getElementById(`juz-${number}-title`);
         if (element) {
           element.scrollIntoView({ behavior: "smooth" });
         }
@@ -258,9 +323,23 @@
         const dots = document.querySelectorAll(".nav-dot");
         dots.forEach((dot) => dot.classList.remove("active"));
 
-        const juzNumber = Math.round(app.scrollTop / window.innerHeight) + 1;
-        const activeDot = document.querySelector(`[data-juz="${juzNumber}"]`);
-        if (activeDot) activeDot.classList.add("active");
+        // Calculate current Juz based on scroll position
+        const scrollPosition = app.scrollTop;
+        const containers = document.querySelectorAll(".juz-container");
+        let currentContainer;
+
+        for (const container of containers) {
+          const rect = container.getBoundingClientRect();
+          if (rect.top <= window.innerHeight / 2) {
+            currentContainer = container;
+          }
+        }
+
+        if (currentContainer) {
+          const juzNumber = parseInt(currentContainer.id.split("-")[1]);
+          const activeDot = document.querySelector(`[data-juz="${juzNumber}"]`);
+          if (activeDot) activeDot.classList.add("active");
+        }
       }
 
       async function initialize() {
