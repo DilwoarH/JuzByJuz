@@ -1,59 +1,63 @@
 # Juz 10 Summary
 
-## The Importance of Staying Firm in Faith
+## **Key Themes from Juz 10**
+  
+### **The Battle of Badr and Its Lessons**
+- The Battle of Badr was intentional, meant to bring peace to believers and punish the Quraysh.
+- Key Quraysh leaders (‘Uqbah, Abu Jahl, ‘Utbah) were killed, marking a significant defeat.
+- Believers were commanded to stand firm, remember Allah, and avoid disputes.
+- Strength comes from patience, unity, and obedience to Allah.
+- Arrogance and pride can ruin noble intentions.
 
-- Faith is tested through hardships and temptations.
-- Some people follow Islam only when life is easy.
-- True believers stay strong in both good and bad times.
-- The Qur’an reminds us not to be swayed by doubts.
-- Trust in Allah keeps faith strong.
-
-Key insight: Faith must be firm—staying strong through tests leads to success.
-
----
-
-## The Story of Prophet Yusuf (Joseph)
-
-- Prophet Yusuf (AS) was betrayed by his brothers out of jealousy.
-- He was thrown into a well and later imprisoned unfairly.
-- Despite hardship, he remained patient and trusted Allah.
-- Allah raised him to a high position in Egypt.
-- His story teaches forgiveness, patience, and reliance on Allah.
-
-Key insight: Patience and trust in Allah turn difficulties into blessings.
+**Key insight:** True success comes from faith, obedience, and unity in the face of challenges.  
 
 ---
 
-## Lessons from the Stories of the Prophets
+### **Surah At-Tawbah and Its Strong Stance**
+- Surah At-Tawbah begins without *Bismillah*, reflecting its serious tone.
+- It announces the end of treaties with Quraysh and idolaters.
+- Hypocrites who pretend to have faith while hiding disbelief are condemned.
+- Idolaters were prohibited from entering holy sites.
+- Devotion to Allah must be pure, without hypocrisy.
 
-- The prophets faced rejection but remained steadfast.
-- Allah’s help always comes to those who stay patient.
-- Success is not immediate—perseverance is needed.
-- Every prophet taught the same message: Worship Allah alone.
-- The Qur’an uses their stories as guidance for all believers.
-
-Key insight: The struggles of the prophets teach patience, hope, and trust in Allah’s plan.
-
----
-
-## The Power of the Qur’an
-
-- The Qur’an is a clear and powerful message from Allah.
-- It guides people to what is right and warns against what is wrong.
-- Those who follow it will never be lost.
-- Rejecting the Qur’an leads to regret in this life and the Hereafter.
-- It is a mercy for those who reflect and act upon its teachings.
-
-Key insight: The Qur’an is the ultimate guide—it leads to success in both worlds.
+**Key insight:** Faith must be sincere, and those who deceive will face consequences.  
 
 ---
 
-## The Temporary Nature of This World
+### **Sacredness of Time and Places**
+- Four months in the Islamic calendar are sacred, where war and sin must be avoided.
+- Mosques should be places of worship, not deception.
+- A hypocritical mosque (*Masjid Dirar*) is mentioned, built with ill intentions.
+- True believers maintain and respect mosques for Allah’s worship.
 
-- Life on earth is a test, but it will not last forever.
-- People chase wealth, power, and pleasure, but all will fade.
-- The real life is in the Hereafter, which lasts forever.
-- True success is in earning Allah’s pleasure, not in worldly gains.
-- The wise person prepares for the next life.
+**Key insight:** Sacred times and places should be honored with sincerity and devotion.  
 
-Key insight: The world is temporary—focusing on the Hereafter brings eternal success.
+---
+
+### **The Call to Defend Faith**
+- Believers are commanded to be prepared and strengthen themselves.
+- Raising an army and maintaining strength is necessary for protection.
+- Jihad includes standing for truth and defending the weak.
+- Those who sacrifice for Allah are honored.
+
+**Key insight:** Faith requires commitment—both spiritual and physical—to uphold justice.  
+
+---
+
+### **Zakah and Wealth Management**
+- Zakah is distinct from general charity; it is obligatory and divinely assigned.
+- Unlike voluntary charity, Zakah has specific rules on how and where it is distributed.
+- Hoarding wealth selfishly leads to punishment in the Hereafter.
+- Hypocrites neglect the poor and misuse wealth for personal gain.
+
+**Key insight:** Wealth is a test—using it for good benefits both the giver and society.  
+
+---
+
+### **True Faith vs. Hypocrisy**
+- Hypocrites pretend to support Islam but harbor greed and malice.
+- They mock true believers and seek wealth over faith.
+- True believers give generously, even beyond their means.
+- Hypocrites resemble corrupt religious leaders from past destroyed nations.
+
+**Key insight:** True faith is shown through sincerity, generosity, and standing for justice.
