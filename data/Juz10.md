@@ -1,8 +1,6 @@
 # Juz 10 Summary
-
-## **Key Themes from Juz 10**
   
-### **The Battle of Badr and Its Lessons**
+## **The Battle of Badr and Its Lessons**
 - The Battle of Badr was intentional, meant to bring peace to believers and punish the Quraysh.
 - Key Quraysh leaders (‘Uqbah, Abu Jahl, ‘Utbah) were killed, marking a significant defeat.
 - Believers were commanded to stand firm, remember Allah, and avoid disputes.
@@ -13,7 +11,7 @@
 
 ---
 
-### **Surah At-Tawbah and Its Strong Stance**
+## **Surah At-Tawbah and Its Strong Stance**
 - Surah At-Tawbah begins without *Bismillah*, reflecting its serious tone.
 - It announces the end of treaties with Quraysh and idolaters.
 - Hypocrites who pretend to have faith while hiding disbelief are condemned.
@@ -24,7 +22,7 @@
 
 ---
 
-### **Sacredness of Time and Places**
+## **Sacredness of Time and Places**
 - Four months in the Islamic calendar are sacred, where war and sin must be avoided.
 - Mosques should be places of worship, not deception.
 - A hypocritical mosque (*Masjid Dirar*) is mentioned, built with ill intentions.
@@ -34,7 +32,7 @@
 
 ---
 
-### **The Call to Defend Faith**
+## **The Call to Defend Faith**
 - Believers are commanded to be prepared and strengthen themselves.
 - Raising an army and maintaining strength is necessary for protection.
 - Jihad includes standing for truth and defending the weak.
@@ -44,7 +42,7 @@
 
 ---
 
-### **Zakah and Wealth Management**
+## **Zakah and Wealth Management**
 - Zakah is distinct from general charity; it is obligatory and divinely assigned.
 - Unlike voluntary charity, Zakah has specific rules on how and where it is distributed.
 - Hoarding wealth selfishly leads to punishment in the Hereafter.
@@ -54,7 +52,7 @@
 
 ---
 
-### **True Faith vs. Hypocrisy**
+## **True Faith vs. Hypocrisy**
 - Hypocrites pretend to support Islam but harbor greed and malice.
 - They mock true believers and seek wealth over faith.
 - True believers give generously, even beyond their means.
