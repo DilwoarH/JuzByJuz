@@ -1,59 +1,75 @@
 # Juz 15 Summary
 
-## The Blessings of the Qur’an
+The Qur’an is made and comprised of 30 **juz**. The beginning of Juz 15 is the beginning of **Surah Al-Isra’**. This is a majestic **surah**. It is a **surah** that gets its name from the night journey. It also has another name: **Surah Bani Isra’il (The Children of Isra’il).**
 
-- The Qur’an is a book of light and guidance for all people.
-- It teaches the difference between right and wrong.
-- Those who follow it will never be led astray.
-- It provides comfort, wisdom, and solutions for life’s struggles.
-- The Qur’an is a mercy from Allah and should be recited regularly.
+## The Night Journey and Masjid Al-Aqsa
+- The first verse declares Allah’s magnificence.
+- Prophet Muhammad (s.a.w.) was transported from Makkah to **Masjid Al-Aqsa** in Jerusalem.
+- Masjid Al-Aqsa was the first **qiblah** before facing the Kaabah.
+- It is a sacred and contested place mentioned as a **city surrounded by Allah’s mercy.**
+- Hardships faced there require patience and devotion, leading to higher places in Jannah.
 
-Key insight: The Qur’an is a powerful source of guidance—following it leads to success.
+**Key Insight:** Masjid Al-Aqsa holds deep spiritual and historical significance in Islam.
 
----
+## The Prophet’s Ascension (Al-Mi’raj)
+- Prophet Muhammad (s.a.w.) was physically and spiritually transported from Makkah to Jerusalem.
+- He met and prayed with previous prophets.
+- Many miracles were shown to him.
+- During this journey, the original **fifty daily prayers** were reduced to **five**.
 
-## The Story of the People of the Cave
+**Key Insight:** The journey reinforced the Prophet’s role and the importance of prayer in Islam.
 
-- A group of young believers sought refuge in a cave to protect their faith.
-- Allah put them to sleep for many years and preserved them.
-- Their story is a lesson in trusting Allah in difficult times.
-- The world may pressure believers, but Allah always provides a way.
-- Those who stand firm in faith will always be protected.
+## Warnings to Bani Isra’il
+- Bani Isra’il had strayed from the teachings of Musa (a.s.).
+- They caused corruption, and Allah foretold their repeated wrongdoing.
+- Eventually, the land will always belong to the believers.
 
-Key insight: Trusting Allah in hard times leads to His protection and guidance.
+**Key Insight:** The past mistakes of Bani Isra’il serve as a warning against corruption and disobedience.
 
----
+## The Choice Between This Life and the Hereafter
+- Those who seek worldly pleasure will be granted it but will miss out on the next life.
+- Those who seek the afterlife with faith and effort will be rewarded on the **Day of Judgment**.
 
-## Wealth is a Test from Allah
+**Key Insight:** True success lies in striving for the hereafter rather than temporary worldly gains.
 
-- Some people become arrogant when they are rich.
-- Wealth is temporary and can disappear at any time.
-- True wealth is in good deeds and faith, not in money and status.
-- Those who give charity and help others are the real winners.
-- Allah blesses those who are grateful for what they have.
+## The 20 Commandments (Verses 22-35)
+- Do not associate partners with Allah.
+- Do not be disobedient to Allah or your parents.
+- Give relatives and the needy their rights.
+- Be humble in speech and avoid vulgarity.
+- Spend wealth in moderation.
+- Do not commit **infanticide or abortions** due to financial fear.
+- Do not consume the wealth of orphans unjustly.
+- Fulfill promises and measure with justice.
+- Speak only with knowledge and avoid arrogance.
 
-Key insight: Wealth is a test—using it wisely brings rewards, while arrogance leads to loss.
+**Key Insight:** These commandments guide a righteous and balanced life.
 
----
+## Prophet Muhammad’s (s.a.w.) Protection and Duties
+- Allah assured the Prophet (s.a.w.) that he would be protected from his enemies.
+- He was commanded to respond to bad words with good words.
+- He was instructed to establish prayer to attain a **praiseworthy station**.
 
-## The Importance of Sincerity in Worship
+**Key Insight:** Good character and prayer elevate a believer’s status.
 
-- Worship should only be for Allah, without seeking praise from others.
-- Good deeds done for show are not accepted by Allah.
-- The intention behind actions is just as important as the actions themselves.
-- True believers worship Allah out of love, not for worldly gain.
-- Sincerity in faith brings peace and closeness to Allah.
+## Introduction to Surah Al-Kahf
+- **Surah Al-Kahf** is recited every Friday for protection from **Dajjal**.
+- Reciting it from one **Jumu’ah** to the next provides light and guidance.
 
-Key insight: Worship is only meaningful when done sincerely for Allah’s pleasure.
+**Key Insight:** Surah Al-Kahf is a source of protection and spiritual light.
 
----
+## The Four Great Trials in Surah Al-Kahf
+1. **Faith:** The trial of belief.
+2. **Wealth and Prosperity:** The test of greed.
+3. **Knowledge:** Practicing and living by divine teachings.
+4. **Power and Authority:** Handling governance and prestige.
 
-## The Reality of the Hereafter
+**Key Insight:** These four trials represent challenges every believer may face in life.
 
-- This world is temporary, but the Hereafter is eternal.
-- Everything in this life will fade, but Paradise lasts forever.
-- Those who do good will enjoy eternal happiness.
-- Those who ignore Allah’s guidance will face regret in the Hereafter.
-- Preparing for the next life is the best investment.
+## Stories in Surah Al-Kahf
+- **The People of the Cave:** Faith and perseverance.
+- **The Man with Two Gardens:** Wealth and gratitude.
+- **Musa (a.s.) and Khidr (a.s.):** The pursuit of knowledge.
+- **Dhulqarnayn:** (Begins in the next **juz**).
 
-Key insight: Life is short—true success is earning a place in Paradise.
+**Key Insight:** These stories offer valuable lessons on faith, humility, and divine wisdom.
