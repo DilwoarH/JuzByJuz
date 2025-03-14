@@ -1,59 +1,84 @@
 # Juz 14 Summary
 
-## The Power of the Qur’an
+## Allah’s Power and Presence
+- Allah speaks about His magnificence and His presence in His creations.
+- He is The One who is irresistible and cannot be contended with.
+- He reminds that the One who brought things out of nothing can bring them back.
+- Resurrection is in His power and He does so as He wills.
 
-- The Qur’an is full of wisdom and guidance.
-- It is a book of truth that helps people find the right path.
-- Those who follow it will never be lost.
-- Ignoring the Qur’an leads to confusion and regret.
-- Allah sent it as a mercy for all of humanity.
+**Key insight:** Allah’s power over creation proves His ability to resurrect and maintain His message.
 
-Key insight: The Qur’an is the ultimate guide—it leads to success in this world and the Hereafter.
+## Rizq (Provision) Comes from Allah
+- Allah is The Provider and speaks about rizq in many ways.
+- Rizq is not human-made but comes from divine providence.
+- Rain brings water, which allows agriculture to grow.
+- Earth’s resources, like ores and fossil fuels, come from Allah’s blessings.
+- These resources are beyond human power to create.
 
----
+**Key insight:** Everything we rely on for survival is a direct blessing from Allah.
 
-## The Story of Prophet Ibrahim (Abraham) and His People
+## The Corrupt Will Be Held Accountable
+- Those who commit corruption and oppression should not think Allah is unaware.
+- He defers their punishment for a set time when they will be questioned.
+- Mankind often forgets their place with their Creator.
+- People are reminded not to feel entitled to blessings.
 
-- Prophet Ibrahim (AS) called his people to worship only Allah.
-- They rejected his message and worshipped idols instead.
-- He destroyed their idols to show them the truth.
-- Despite their threats, he remained strong in his faith.
-- Allah protected him and made him a leader for future generations.
+**Key insight:** Justice may not always be immediate, but it is certain.
 
-Key insight: True faith requires courage—standing for the truth brings Allah’s help.
+## Stories from Surah Al-Hijr
+- Allah shares stories with Prophet Muhammad (s.a.w.) to strengthen his heart.
+- He reassures the Prophet (s.a.w.) that past great people were also tested.
+- Ibrahim (a.s.) was given glad tidings of a son but had to leave him in the desert with Hajar.
+- Lut (a.s.) called his people to purity, but they rejected him due to their corruption.
+- Allah’s punishment for immorality is severe.
 
----
+**Key insight:** Tests and challenges are part of Allah’s plan, and prophets faced them too.
 
-## The Importance of Praying to Allah
+## Allah’s Mercy and Punishment
+- Allah says in verses 49 and 50:  
+  *"Inform My servants that it is I who am the Forgiving, the Merciful. And that it is My punishment which is the painful punishment."*
+- He will test people and hold them accountable.
+- The Prophet (s.a.w.) is reminded to continue calling people to righteousness, even if they reject it.
 
-- Allah listens to every sincere prayer.
-- He responds in the best way and at the right time.
-- Sometimes, what we ask for is delayed for a greater reason.
-- Those who sincerely call upon Allah will never be disappointed.
-- Du‘a (supplication) is a powerful way to strengthen faith.
+**Key insight:** Allah’s mercy is vast, but His punishment is also real for those who persist in wrongdoing.
 
-Key insight: Allah always listens—prayer is the key to guidance, peace, and blessings.
+## Surah An-Nahl: The Blessings of Allah
+- Surah An-Nahl speaks about Allah’s many blessings.
+- The greatest blessing is the Qur’an.
+- Allah mentions these blessings multiple times, asking if we are truly grateful.
 
----
+**Key insight:** Gratitude for Allah’s blessings is essential.
 
-## The Temporary Nature of This World
+## Signs of Allah’s Blessings
+- The sun, moon, vegetation, rain, intellect, faith, and revelation.
+- The creation of men, animals, water, fruits, earth, sky, ocean, stars, night, and day.
+- Allah highlights specific blessings: cattle, honey, spouses, children, wealth, and freedom.
+- Those with wisdom recognize these blessings, while others remain blind.
 
-- This life is full of tests, but it will not last forever.
-- Wealth, power, and beauty are temporary.
-- The Hereafter is the true and everlasting life.
-- People should focus on preparing for the next life.
-- Only good deeds will matter on the Day of Judgment.
+**Key insight:** Recognizing and appreciating Allah’s blessings is a sign of wisdom.
 
-Key insight: Life is short—wise people invest in what lasts forever.
+## Logical Reflection on Creation
+- Can the Creator be equal to one who has created nothing?
+- Can a believer be equal to a disbeliever?
+- Can a struggler in God’s path be equal to one who does nothing?
+- Allah is above all human estimations.
 
----
+**Key insight:** Reflecting on creation strengthens faith.
 
-## Obedience to Allah Brings Success
+## Observing Allah’s Creations
+- Allah asks us to observe:
+  - The womb of a mother.
+  - The floating and flying of birds.
+  - Shadows and shade provided by Allah.
+  - The clothes we wear, which come from His blessings.
+- An example is given of a town that believed but later disbelieved, facing hardship.
 
-- True success comes from following Allah’s commands.
-- Those who obey Allah live with peace and purpose.
-- Disobeying Allah leads to hardship and regret.
-- Even small acts of obedience are valuable in Allah’s sight.
-- The Hereafter is the true reward for those who remain faithful.
+**Key insight:** Observing nature deepens our understanding of Allah’s care.
 
-Key insight: Obeying Allah brings blessings—those who follow His path will never be lost.
+## Final Advice to the Prophet (s.a.w.)
+- *"Let people understand this, call them to the path of righteousness, with wisdom, good counsel, and show them the best of your manners."*
+- Maintain worship until certainty (death) arrives.
+- The Day of Judgment is already set in motion.
+- The Prophet (s.a.w.) is reminded that his duty is to deliver the message, not force belief.
+
+**Key insight:** Guidance must be delivered with wisdom, but faith remains a personal choice.
