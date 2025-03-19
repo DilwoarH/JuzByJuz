@@ -1,59 +1,36 @@
 # Juz 20 Summary
 
-## The Qur’an is a Light for Humanity
+## Purifying Intentions and Righteousness
+- Surah An-Naml emphasizes the importance of purifying our intentions with Allah.
+- Good intentions alone do not guarantee protection from harm.
+- The story of Prophet Lut (a.s.) highlights how righteousness is often rejected by the corrupt.
+- Five rhetorical questions affirm Allah’s power and control over creation.
+- The surah describes signs of the Day of Judgment, including the emergence of a beast.
 
-- The Qur’an is full of wisdom and guidance.
-- It teaches the truth and warns against falsehood.
-- Those who follow it will never be lost.
-- Ignoring the Qur’an leads to confusion and regret.
-- Every verse is a mercy and a reminder for those who reflect.
+Key insight: Righteousness may not always be welcomed, but it is still the path to truth.
 
-Key insight: The Qur’an is the ultimate guide—it leads to success in both worlds.
+## Oppression and Justice in Surah Al-Qasas
+- This surah comforts believers suffering oppression, particularly in Makkah.
+- Allah promises that the faithful will eventually rise and inherit the land.
+- Five types of tyranny are highlighted: unjust rulers, oppressive ministers, corrupt religious leaders, merciless military, and greedy businessmen.
+- The story of Qarun warns against arrogance and wealth obtained through injustice.
+- The surah encourages patience and endurance in trials.
 
----
+Key insight: Tyranny and corruption repeat in history, but faith and justice will prevail.
 
-## The Power of Du‘a (Supplication)
+## Women in Surah Al-Qasas
+- The mother of Musa (a.s.) displayed courage and faith by protecting her son.
+- His sister showed intelligence and quick thinking in ensuring Musa’s survival.
+- Two young women in the surah worked ethically despite societal norms.
+- Women play key roles in upholding faith and righteousness.
 
-- Allah is always near and listens to sincere prayers.
-- He answers those who call upon Him with sincerity.
-- Du‘a strengthens the connection between a person and Allah.
-- Asking Allah for help shows true faith.
-- Patience is needed, as Allah answers in the best way and time.
+Key insight: Women in Islam are portrayed as strong, wise, and courageous figures.
 
-Key insight: Du‘a is a powerful tool—Allah always listens and responds in the best way.
+## Redemption and Trials in Surah Al-Ankabut
+- The concept of redemption is highlighted through the story of Musa (a.s.).
+- Qarun’s downfall warns against pride and materialism.
+- The surah discusses fitnah (tests and tribulations) as a certainty for believers.
+- Allah tests people in various ways—through family, wealth, health, and hardships.
+- True believers are those who remain steadfast despite trials.
 
----
-
-## The Dangers of Arrogance and Pride
-
-- Many past nations were destroyed due to their arrogance.
-- Pride blinds people from seeing the truth.
-- Humility is a key quality of successful believers.
-- No one is above Allah’s commands, no matter their wealth or status.
-- True strength comes from submitting to Allah with sincerity.
-
-Key insight: Arrogance leads to downfall, but humility brings honor and success.
-
----
-
-## The Temporary Nature of This World
-
-- This life is full of tests, but it will not last forever.
-- Wealth, power, and beauty will fade away.
-- The Hereafter is the true and everlasting life.
-- People should focus on preparing for the next life.
-- Only good deeds will matter on the Day of Judgment.
-
-Key insight: Life is short—wise people invest in what lasts forever.
-
----
-
-## The Promise of Paradise
-
-- Allah has prepared Paradise for those who believe and do good.
-- It is a place of eternal peace, happiness, and reward.
-- No pain, sadness, or hardship will exist there.
-- Those who obey Allah will enter it by His mercy.
-- The greatest reward in Paradise is seeing Allah.
-
-Key insight: The ultimate success is earning a place in Paradise through faith and good deeds.
+Key insight: Tests are part of faith, and endurance leads to Allah’s guidance.
